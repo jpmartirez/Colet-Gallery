@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en" class="font-Poppins scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Colet's Gallery | JP</title>
+    <link rel="stylesheet" href="./src/output.css" />
+  </head>
+  <body class="px-6">
+    <nav class="">
+      <input type="checkbox" id="toggle" hidden />
+
+      <ul
+        class="fixed left-[-100%] top-0 bottom-0 p-3 flex flex-col gap-3 w-[150px] bg-white border-r-2 border-black transition-all overflow-scroll"
+        id="navigation"
+      >
+        <label for="toggle" class="ml-auto"
+          ><img
+            class="w-[30px] cursor-pointer"
+            src="./icons/sign-times-svgrepo-com.svg"
+            alt=""
+        /></label>
+        <li><a href="" class="border-b-2 border-black">About</a></li>
+        <li><a href="" class="border-b-2 border-black">Photos</a></li>
+        <li><a href="" class="border-b-2 border-black">Shop</a></li>
+        <li><a href="" class="border-b-2 border-black">Contact</a></li>
+      </ul>
+
+      <button class="">
+        <label for="toggle"
+          ><img
+            src="./icons/menu-alt-2-svgrepo-com.svg"
+            alt="Menu"
+            class="w-[60px] cursor-pointer"
+        /></label>
+      </button>
+    </nav>
+
+    <main class="max-w-[1200px] mx-auto">
+      <p class="text-2xl font-bold text-center" id="home">
+        Bini Colet's Gallery
+      </p>
+      <p class="my-2 text-center">
+        Snapshots of life, love, and everything in between.
+      </p>
+      <div class="flex justify-center">
+        <button
+          class="px-4 py-2 text-white transition-all bg-black border-2 border-black rounded-md cursor-pointer hover:bg-white hover:text-black"
+          id="gridBtn"
+        >
+          <p id="content">Margin Grid</p>
+        </button>
+      </div>
+
+      <section class="mt-10">
+        <div class="grid grid-cols-1 sm:grid-cols-3" id="mainGrid">
+          <div class="overflow-hidden">
+            <img
+              class="transition-all cursor-pointer hover:scale-105"
+              src="./pics/451ae0a8-8252-4495-a2cf-83e48afbe295.jpg"
+              alt=""
+              id="picGrid"
+            />
+            <img
+              class="transition-all cursor-pointer hover:scale-105"
+              src="./pics/BINI COLET (1).jpg"
+              alt=""
+              id="picGrid"
+            />
+            <img
+              class="transition-all cursor-pointer hover:scale-105"
+              src="./pics/BINI Colet Love Laban 2024.jpg"
+              alt=""
+              id="picGrid"
+            />
+          </div>
+
+          <div class="grid grid-flow-row overflow-hidden">
+            <img
+              class="transition-all cursor-pointer hover:scale-105"
+              src="./pics/bini colet.jpg"
+              alt=""
+              id="picGrid"
+            />
+            <img
+              class="transition-all cursor-pointer hover:scale-105"
+              src="./pics/Bini Jollibee photocard  (No text) Bini Colet.jpg"
+              alt=""
+              id="picGrid"
+            />
+            <img
+              class="transition-all cursor-pointer hover:scale-105"
+              src="./pics/colet.jpg"
+              alt=""
+              id="picGrid"
+            />
+            <img
+              class="transition-all cursor-pointer hover:scale-105"
+              src="./pics/BINI COLET (3).jpg"
+              alt=""
+              id="picGrid"
+            />
+          </div>
+
+          <div class="overflow-hidden">
+            <img
+              class="transition-all cursor-pointer hover:scale-105"
+              src="./pics/fc044747-84c1-4e12-8936-f78c75e11774.jpg"
+              alt=""
+              id="picGrid"
+            />
+            <img
+              class="transition-all cursor-pointer hover:scale-105"
+              src="./pics/⋆⭒˚｡⋆.jpg"
+              alt=""
+              id="picGrid"
+            />
+            <img
+              class="transition-all cursor-pointer hover:scale-105"
+              src="./pics/39860844-0903-4b2d-9811-a78ec8ac3098.jpg"
+              alt=""
+              id="picGrid"
+            />
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer
+      class="flex flex-col items-center gap-3 py-10 mt-8 border-t-2 border-black"
+    >
+      <button
+        class="px-4 py-2 text-white transition-all bg-black border-2 border-black rounded-lg hover:bg-white hover:text-black"
+      >
+        <a href="#home">To the TOP</a>
+      </button>
+      <div class="flex items-center gap-4">
+        <a href=""
+          ><img
+            class="w-[30px] hover:scale-105 transition-all"
+            src="./icons/facebook-round-svgrepo-com.svg"
+            alt=""
+        /></a>
+        <a href=""
+          ><img
+            class="w-[30px] hover:scale-105 transition-all"
+            src="./icons/instagram-f-svgrepo-com.svg"
+            alt=""
+        /></a>
+        <a href=""
+          ><img
+            class="w-[30px] hover:scale-105 transition-all"
+            src="./icons/linkedin-round-svgrepo-com.svg"
+            alt=""
+        /></a>
+        <a href=""
+          ><img
+            class="w-[30px] hover:scale-105 transition-all"
+            src="./icons/twitter-round-svgrepo-com.svg"
+            alt=""
+        /></a>
+      </div>
+    </footer>
+
+    <script src="./index.js"></script>
+  </body>
+</html>
